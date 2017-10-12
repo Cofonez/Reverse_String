@@ -1,0 +1,20 @@
+reversedlist = input("enter the string you want reversed: ")
+
+def reversestring():
+    for i in reversed(reversedlist):
+        print (i, end = "" )
+        print("")
+    
+def reversestringRecursive():
+
+    print(reversedlist[::-1])
+    
+    
+def main():
+    
+    reversestring()
+
+    reversestringRecursive()
+
+
+main()
